@@ -1,2 +1,4 @@
 build/*
 src/dev/*
+jest/jest-preprocess.js
+jest/setupFilesAfterEnv.js

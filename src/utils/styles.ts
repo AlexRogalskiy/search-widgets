@@ -2,7 +2,7 @@
 import { isNumber, isObject, isString } from 'lodash-es';
 
 // The container size breakpoints (based on Tailwind config)
-const breakpoints: Record<string, number> = {
+export const breakpoints: Record<string, number> = {
   sm: 640,
   md: 768,
   lg: 1024,
@@ -54,7 +54,7 @@ export function getComputedStyleForElement(property: string, element = 'span', c
   return styles.getPropertyValue(property);
 }
 
-const parseRatio = (input: string) => {
+export const parseRatio = (input: string) => {
   if (!input.includes('/')) {
     return parseInt(input, 10);
   }

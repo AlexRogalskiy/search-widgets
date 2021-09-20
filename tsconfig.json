@@ -55,7 +55,7 @@
     // "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
     "esModuleInterop": true,
-    "types": ["node", "preact/jsx-runtime"]
+    "types": ["node", "preact/jsx-runtime", "jest", "@types/jest"]
   },
   "include": ["src/**/*.tsx", "src/**/*.ts", "src/types/twin.d.ts"],
   "files": ["src/types/twin.d.ts"]
